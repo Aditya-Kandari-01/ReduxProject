@@ -1,16 +1,43 @@
-# React + Vite
+# Redux Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a hands-on implementation of Redux for state management in a React application. It demonstrates how to efficiently manage global state, handle actions, and structure scalable frontend applications.
 
-Currently, two official plugins are available:
+##⚙️ Tech Stack
+  .React.js
+  .Redux / Redux Toolkit
+  .JavaScript (ES6+)
+  .HTML5 & CSS3
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##🧠 Concepts :
+  .Store – Centralized state container
+  .Actions – Describe what happens
+  .Reducers – Handle state updates
+  .Dispatch – Send actions to reducers
+  .Selectors – Access state from components
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##🚀 Getting Started :
+  1. Clone the repository
+    git clone https://github.com/Aditya-Kandari-01/ReduxProject.git
+    cd ReduxProject
+  2. Install dependencies
+    npm install
+  3. Run the project
+    npm start
+  4. Set up API Keys
+    This project requires API keys from the following services:
+      Photos → Unsplash
+      Videos → Giphy
+      GIFs → Pexels
+    Create an account on each platform
+    Generate your API keys
+    Create a .env file in the root directory
+  5. Structure of .env file:
+  VITE_UNSPLASH_KEY = "keep ur key in brackets"
+  VITE_GIPHY_KEY = "keep ur key in brackets"
+  VITE_PEXELS_KEY = "keep ur key in brackets"
+## 🔄 Redux Flow (How it Works)
+  1.User interacts with UI
+  2.Component dispatches an action
+  3.Action is sent to reducer
+  4.Reducer updates the state
+  5.Updated state is reflected in UI
