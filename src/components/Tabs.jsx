@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Tabs = () => {
-  return (
-    <div>
-      Tabs
-    </div>
-  )
-}
-
-export default Tabs
-=======
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setActiveTab } from "../redux/features/searchSlice";
 
@@ -39,4 +27,3 @@ const Tabs = () => {
 };
 
 export default Tabs;
->>>>>>> 81dec75 (Log fetched data and implement search reducers and tabs)
